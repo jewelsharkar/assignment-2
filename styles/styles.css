@@ -1,0 +1,42 @@
+/*--------------
+ Main font
+ ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    /* margin-top: 50px; */
+    margin-left: 230px;
+}
+
+.navigation {
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px
+}
+.navigation a{
+    text-decoration: none ;
+    padding-right: 60px;
+    
+
+}
