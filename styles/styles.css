@@ -75,6 +75,66 @@ body {
     margin-left: 870px;
     margin-right: 870px;
     margin-bottom: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
     /* left: 870px;
     top: 463px; */
+}
+.large-image{
+    margin-bottom: 45px;
+}
+
+/*-----------------
+ article style
+ ---------------- */
+.team-container {
+    display: flex;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-bottom: 220px;
+    margin-left: 300px;
+    margin-top: 85px;
+}
+
+/* .team-container .teams .team-Photo img {
+    margin-top: 85px; */
+.team-info {
+    width: 537px;
+    height: 304px;
+    margin: 290px 300px 332px 70px;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.team-title-color-1 {
+    color: #727272;
+    font-weight: 500;
+
+}
+
+.team-title-color-2 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.btn {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-top: 32px;
+
 }
