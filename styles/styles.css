@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    width: 100%;
+    width: 1920px;
 }
 
 .header {
@@ -34,9 +34,47 @@ body {
     font-weight: 500;
     font-size: 18px
 }
-.navigation a{
-    text-decoration: none ;
-    padding-right: 60px;
-    
 
+.navigation a {
+    text-decoration: none;
+    padding-right: 60px;
+}
+
+.main-container {
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.main-box {
+    width: 862px;
+    height: 225px;
+    margin-top: 102px;
+    margin-bottom: 33px;
+    margin-left: 530px;
+    margin-right: 530px;
+}
+
+.main-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.main-info {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.primary-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    margin-left: 870px;
+    margin-right: 870px;
+    margin-bottom: 50px;
+    /* left: 870px;
+    top: 463px; */
 }
