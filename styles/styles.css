@@ -256,7 +256,8 @@ facts  styles
 .box:hover {
     border: 3px solid blue;
 }
-.achievements-photo:hover{
+
+.achievements-photo:hover {
 
     border: 3px solid blue;
 }
@@ -278,7 +279,7 @@ facts  styles
 /* ---------------
 instructors style
 ------------------ */
-.instructors-title{
+.instructors-title {
     text-align: center;
     margin: 100px 0 50px 0;
     font-weight: 800;
@@ -287,9 +288,45 @@ instructors style
     /* width: 300px; */
 }
 
-.instructors{
+.instructors {
     display: flex;
     justify-content: center;
     gap: 30px;
+
+}
+
+/*-------------------
+ sponspors style
+ ----------------- */
+
+.sponspors-info {
+    text-align: center;
+    width: 542px;
+    height: 129px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    margin-left: 689px;
+    margin-right: 689px;
+}
+
+.sponspors-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
     
+}
+
+.sponspors-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sponspors-logo {
+    display: flex;
+    justify-content: center;
+    gap: 154px;
+    filter: grayscale(100%);
+
+
 }
