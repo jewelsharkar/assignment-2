@@ -313,7 +313,7 @@ instructors style
     color: #131313;
     font-weight: 700;
     font-size: 45px;
-    
+
 }
 
 .sponspors-discription {
@@ -332,15 +332,210 @@ instructors style
 /* ------------------
 footer styles
 -------------------- */
-.end{
+.end {
     background: #FFF4E7;
-border-radius: 8px;
-width: 1440px;
-height: 100px;
-margin: 130px 240px 216px 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin: 130px 240px 216px 240px;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     padding: 39px 410px 38px 410px;
-     
+
+}
+
+/* -----------
+media Queries 
+--------------*/
+
+/* --------Mobile Devices--------- */
+@media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .header-title {
+        font-weight: 400;
+        font-size: 30px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .navigation {
+        display: grid;
+        gap: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main-box {
+        width: 300px;
+        height: 80px;
+        margin-top: 36px;
+        margin-bottom: 11px;
+        margin-left: 20px;
+        margin-right: 0px;
+
+    }
+
+    .main-title {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .primary-btn {
+        width: 180px;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 18px;
+        margin-top: 90px;
+    }
+
+    .large-image {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .team-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .team-info {
+        width: 300px;
+        height: 150px;
+        margin: 100px 100px 100px 30px;
+    }
+
+    .team-title {
+        font-size: 30px;
+
+    }
+
+    .btn {
+        width: 180px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .teams {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 160px;
+    }
+
+    .services-container {
+        /* display: flex; */
+        flex-direction: column;
+        gap: 100px;
+        width: 380px;
+        height: 378px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .services-title {
+        font-size: 30px;
+
+    }
+
+    .services-description {
+        font-weight: 400;
+        font-size: 16px;
+        width: 210px;
+        height: 28px;
+        margin-left: 30px;
+        margin-bottom: 120px;
+    }
+
+    .service {
+        width: 300px;
+        /* height: 265px; */
+    }
+
+    .service-advantage {
+        width: 280px;
+        height: 250px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 10px 10px 50px 10px;
+
+    }
+
+    .architects img {
+        margin-top: 500px;
+        width: 380px;
+        height: 700px;
+    }
+
+    .big-btn {
+        display: none;
+    }
+
+    .facts-info {
+        margin-top: 2000px;
+        margin-left: 0px;
+        width: 380px;
+    }
+
+    .achievements {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+
+    .instructors-title {
+        font-size: 30px;
+
+    }
+
+    .instructors {
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .sponspors-info {
+        text-align: center;
+        width: 280px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .sponspors-title {
+        font-size: 30px;
+
+    }
+
+    .sponspors-logo {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .end {
+        width: 100%;
+        height: 100px;
+        margin: 46px 85px 77px 85px;
+        margin-left: 0px;
+    }
+
+    .copyright {
+        padding: 13px 147px 13px 147px;
+
+    }
 }
