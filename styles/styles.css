@@ -327,6 +327,20 @@ instructors style
     justify-content: center;
     gap: 154px;
     filter: grayscale(100%);
+}
 
-
+/* ------------------
+footer styles
+-------------------- */
+.end{
+    background: #FFF4E7;
+border-radius: 8px;
+width: 1440px;
+height: 100px;
+margin: 130px 240px 216px 240px;
+}
+.copyright{
+    text-align: center;
+    padding: 39px 410px 38px 410px;
+     
 }
