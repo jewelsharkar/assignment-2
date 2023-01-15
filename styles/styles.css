@@ -273,3 +273,23 @@ facts  styles
     font-weight: 600;
     font-size: 20px;
 }
+
+
+/* ---------------
+instructors style
+------------------ */
+.instructors-title{
+    text-align: center;
+    margin: 100px 0 50px 0;
+    font-weight: 800;
+    font-size: 40px;
+    /* border-left: 4px solid #FF900E; */
+    /* width: 300px; */
+}
+
+.instructors{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
