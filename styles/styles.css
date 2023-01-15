@@ -225,3 +225,51 @@ services styles
     text-align: center;
     margin-top: -50px;
 }
+
+/* ---------------------
+facts  styles
+-----------------------*/
+.facts-info {
+    margin-top: 300px;
+    margin-left: 240px;
+    width: 542px;
+}
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    text-align: center;
+    padding: 60px 20px 60px 20px;
+    height: 241.83px;
+}
+
+.box:hover {
+    border: 3px solid blue;
+}
+.achievements-photo:hover{
+
+    border: 3px solid blue;
+}
+
+.achievements-number {
+    color: #424242;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.achievements-name {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
